@@ -12,7 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <span>Next Js Tutorial</span>
+        <span className="text-blue-500 text-xl font-bold">
+          Next Js Tutorial
+        </span>
       </main>
 
       <footer className={styles.footer}>
