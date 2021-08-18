@@ -17,6 +17,11 @@ export default function Home() {
         </span>
       </main>
 
+      <div className="flex bg-green-200 w-full justify-around">
+        <span className="p-4 text-blue-500">Text One</span>
+        <span className="p-4 text-red-500">Text Two</span>
+      </div>
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
