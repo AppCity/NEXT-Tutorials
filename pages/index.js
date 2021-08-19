@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Card from "../components/Card/Card";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
           Next Js Tutorial
         </span>
       </main>
+
+      <Card />
 
       <div className="flex bg-green-200 w-full justify-around">
         <span className="p-4 text-blue-500">Text One</span>
